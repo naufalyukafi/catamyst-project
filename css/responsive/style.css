@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 20px;
+}
+
+article {
+  padding: 2rem;
+  border: 1px solid black;
+  min-height: 40vh;
+}
+
+.box2 {
+  display: none;
+}

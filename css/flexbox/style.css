@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
